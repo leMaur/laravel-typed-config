@@ -1,0 +1,21 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Call to an undefined method Lemaur\\\\LaravelTypedConfig\\\\LaravelTypedConfigServiceProvider\\:\\:get\\(\\)\\.$#"
+			count: 10
+			path: src/LaravelTypedConfigServiceProvider.php
+
+		-
+			message: "#^Call to an undefined method Lemaur\\\\LaravelTypedConfig\\\\LaravelTypedConfigServiceProvider\\:\\:isEmptyString\\(\\)\\.$#"
+			count: 2
+			path: src/LaravelTypedConfigServiceProvider.php
+
+		-
+			message: "#^Call to an undefined method Lemaur\\\\LaravelTypedConfig\\\\LaravelTypedConfigServiceProvider\\:\\:isNotFilled\\(\\)\\.$#"
+			count: 2
+			path: src/LaravelTypedConfigServiceProvider.php
+
+		-
+			message: "#^Call to an undefined method Lemaur\\\\LaravelTypedConfig\\\\LaravelTypedConfigServiceProvider\\:\\:string\\(\\)\\.$#"
+			count: 1
+			path: src/LaravelTypedConfigServiceProvider.php
